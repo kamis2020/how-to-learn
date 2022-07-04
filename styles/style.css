@@ -214,6 +214,7 @@ ul {
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
@@ -221,11 +222,13 @@ ul {
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   margin-top: 20px;
   width: 60%;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -234,12 +237,14 @@ ul {
   z-index: 1;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .footer {
