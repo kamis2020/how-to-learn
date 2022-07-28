@@ -43,11 +43,6 @@
   z-index: 2;
 }
 
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -64,7 +59,9 @@
   position: absolute;
   top: 64px;
   right: 0;
-  animation: rot 20s infinite;
+}
 
+.header__square-pic-rotation {
+  animation: rotation 20s infinite;
 }
 

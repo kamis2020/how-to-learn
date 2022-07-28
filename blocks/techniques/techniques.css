@@ -1,6 +1,7 @@
 .techniques {
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .cards {
@@ -40,6 +41,7 @@
 }
 
 .cards__description {
+    margin: 0 auto;
     font-size: 18px;
     line-height: 23px;
     font-weight: normal;
