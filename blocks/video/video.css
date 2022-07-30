@@ -1,36 +1,9 @@
+@import url(./__iframes/video__iframes.css);
+@import url(./__iframe/video__iframe.css);
+
 .video {
   width: 1100px;
   padding-top: 100px;
   margin: 0 auto;
   z-index: 1;
-}
-
-.section-title {
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 1.15;
-}
-
-.section-subtitle {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-}
-
-.iframes {
-  margin: 0 auto;
-  position: relative;
-  top: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.video__iframe {
-  border: none;
-  width: 515px;
-  height: 316px;
-}
-
-.video__iframe:nth-child(1) {
-  margin-right: 20px;
 }

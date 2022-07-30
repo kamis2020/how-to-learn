@@ -1,71 +1,14 @@
+@import url(./__container/khan__container.css);
+@import url(./__author/khan__author.css);
+@import url(./__title/khan__title.css);
+@import url(./__quote/khan__quote.css);
+@import url(./__blockquote/khan__blockquote.css);
+@import url(./__book-pik/khan__book-pik.css);
+@import url(./__link/khan__link.css);
+@import url(./__quote-author/khan__quote-author.css);
+@import url(./__quote-author-subline/khan____quote-author-subline.css);
+@import url(./__book-container/khan____book-container.css);
+
 .khan {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
-
-.khan__container {
-    margin: 0 auto;
-    padding-top: 105px;
-    width: 80%;
-   
-}
-
-.khan__author {
-    font-size: 30px;
-    line-height: 42px;
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.khan__title {
-    font-size: 60px;
-    line-height: 1.15;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.khan__quote {
-    margin: 0;
-    width: 790px;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: normal;
-    margin-top: 50px;
-    margin-bottom: 0;
-}
-
-.khan__blockquote {
-    margin: 0;
-}
-
-.khan__quote-author {
-    font-size: 24px;
-    line-height: 1.15;
-    font-weight: 600;
-    margin-top: 36px;
-    margin-bottom: 0;
-}
-
-.khan__quote-author-subline {
-    font-size: 24px;
-    line-height: 1.15;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.khan__book-container{
-    margin-top: 68px;
-    display: flex;
-    align-items:flex-start;
-}
-
-.khan__book-pik {
-    margin-right: 48px;
-    width: 620px;
-    height: 608px;
-    object-fit: cover;
-    object-position: top left;
-}
-

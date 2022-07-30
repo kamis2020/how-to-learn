@@ -1,49 +1,11 @@
+@import url(../cards/cards.css);
+@import url(../cards/__description/cards__description.css);
+@import url(../cards/__image/cards__image.css);
+@import url(../cards/__item/cards__item.css);
+@import url(../cards/__title/cards__title.css);
+
 .techniques {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.cards {
-    margin: 0 auto;
-    width: 920px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-}
-
-.cards__image{
-    width: 160px;
-    height: 160px;
-    padding: 0 40px 0 40px;
-    border-radius: 50%;
-}
-
-.cards__item {
-    list-style: none;
-    width: 240px;
-    padding-top: 60px;
-    margin-right: 100px;
-}
-
-.cards__item:nth-child(3n){
-    margin-right: 0px;
-}
-
-.cards__title {
-    margin: 0;
-    font-size: 24px;
-    line-height: 1.15;
-    font-weight: 600;
-    margin-top: 43px;
-    margin-bottom: 16px;
-    text-align: center;
-}
-
-.cards__description {
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 23px;
-    font-weight: normal;
-    text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
 }
