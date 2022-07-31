@@ -14,8 +14,7 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-@import url(../blocks/rotation/rotation.css);
-@import url(../blocks/kaufman/__triangle-rotation/kaufman__triangle-rotation.css);
+/*@import url(../blocks/rotation/rotation.css);*/
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__blockquote/khan__blockquote.css);

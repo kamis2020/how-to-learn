@@ -6,7 +6,3 @@
   top: 64px;
   right: 0;
 }
-
-.header__square-pic-rotation {
-  animation: rotation 20s infinite;
-}
