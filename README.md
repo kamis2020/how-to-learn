@@ -8,3 +8,5 @@ How to learn
 4. GIT.
 5. Анимации.
 6. Iframe.
+
+* [Ссылка на готовый проект](https://kamis2020.github.io/how-to-learn/index.html)
